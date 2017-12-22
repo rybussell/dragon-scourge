@@ -14,15 +14,15 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
-<table width="100%" cellspacing="0" cellpadding="0"><tr>
-<td width="50%" style="text-align: center; vertical-align: middle;">
+$template = "
+<table width=\"100%\" cellspacing=\"0\" cellpadding=\"0\"><tr>
+<td width=\"50%\" style=\"text-align: center; vertical-align: middle;\">
 
 </td>
-<td width="50%" style="text-align: center; vertical-align: middle;">
+<td width=\"50%\" style=\"text-align: center; vertical-align: middle;\">
 
 </td>
 </tr></table>
-END;
+";
 
 ?>

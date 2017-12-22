@@ -14,12 +14,12 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <tr>
-<td width="40%"><a href="index.php?do=mailviewsent&id={{id}}">{{title}}</a></td>
-<td width="30%">To: <a href="users.php?do=profile&uid={{recipientid}}">{{recipientname}}</a></td>
-<td width="30%">{{fpostdate}}</td>
+<td width=\"40%\"><a href=\"index.php?do=mailviewsent&id={{id}}\">{{title}}</a></td>
+<td width=\"30%\">To: <a href=\"users.php?do=profile&uid={{recipientid}}\">{{recipientname}}</a></td>
+<td width=\"30%\">{{fpostdate}}</td>
 </tr>
-END;
+";
 
 ?>

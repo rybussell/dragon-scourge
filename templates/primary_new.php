@@ -14,10 +14,10 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <head>
 <title>{{gamename}} :: {{pagetitle}}</title>
-<style type="text/css">
+<style type=\"text/css\">
 
 /****** MAIN ELEMENTS ******/
 body { font: 10px Verdana; background-image: url(images/{{background}}.jpg); padding: 0px; }
@@ -40,49 +40,49 @@ a:hover { color: #663300; }
 </head>
 <body><center>
 
-<table width="750" height="380" cellspacing="0" cellpadding="0" style="border: solid 1px black; background-color: white;">
+<table width=\"750\" height=\"380\" cellspacing=\"0\" cellpadding=\"0\" style=\"border: solid 1px black; background-color: white;\">
 <tr>
-<td width="750" height="60" colspan="3" style="border-bottom: solid 1px #cccccc; vertical-align: middle;">
-<table width="750" height="60" cellspacing="0" cellpadding="0"><tr>
-<td width="350"><img src="images/logo.gif" /></td>
-<td width="400" style="vertical-align: middle; padding: 5px;">{{topnav}}</td>
+<td width=\"750\" height=\"60\" colspan=\"3\" style=\"border-bottom: solid 1px #cccccc; vertical-align: middle;\">
+<table width=\"750\" height=\"60\" cellspacing=\"0\" cellpadding=\"0\"><tr>
+<td width=\"350\"><img src=\"images/logo.gif\" /></td>
+<td width=\"400\" style=\"vertical-align: middle; padding: 5px;\">{{topnav}}</td>
 </tr></table>
 </td>
 </tr>
 <tr>
-<td width="140" height="274" rowspan="2" style="border-right: solid 1px #cccccc;"><div style="padding: 3px;">
+<td width=\"140\" height=\"274\" rowspan=\"2\" style=\"border-right: solid 1px #cccccc;\"><div style=\"padding: 3px;\">
 {{leftnav}}
 </div></td>
-<td width="450" height="174"><div style="padding: 3px;">
-<div style="width: 444px; height: 168px; overflow: auto;">
-<div class="big"><b>{{pagetitle}}</b></div>
+<td width=\"450\" height=\"174\"><div style=\"padding: 3px;\">
+<div style=\"width: 444px; height: 168px; overflow: auto;\">
+<div class=\"big\"><b>{{pagetitle}}</b></div>
 {{content}}
 </div>
 </div></td>
-<td width="160" height="274" rowspan="2" style="border-left: solid 1px #cccccc;"><div style="padding: 3px;">
+<td width=\"160\" height=\"274\" rowspan=\"2\" style=\"border-left: solid 1px #cccccc;\"><div style=\"padding: 3px;\">
 {{rightnav}}
 </div></td>
 </tr>
 <tr>
-<td width="450" height="106" style="border-top: solid 1px #cccccc;">{{middlenav}}</td>
+<td width=\"450\" height=\"106\" style=\"border-top: solid 1px #cccccc;\">{{middlenav}}</td>
 </tr>
 <tr>
-<td width="750" height="56" colspan="3" style="border-top: solid 1px #cccccc;">
-<div style="height: 48px; padding: 3px;">
+<td width=\"750\" height=\"56\" colspan=\"3\" style=\"border-top: solid 1px #cccccc;\">
+<div style=\"height: 48px; padding: 3px;\">
 {{bottomnav}}
 </div>
 </td>
 </tr>
 </table>
-<table width="750" height="18" cellspacing="0" cellpadding="0" style="border: solid 1px black; background-color: white; margin-top: 3px;">
+<table width=\"750\" height=\"18\" cellspacing=\"0\" cellpadding=\"0\" style=\"border: solid 1px black; background-color: white; margin-top: 3px;\">
 <tr>
-<td width="50%" style="vertical-align: middle; padding-left: 5px;"><span class="little">Version <a href="index.php?do=version">{{version}}</a> / {{numqueries}} Queries / {{totaltime}} Seconds</span></td>
-<td width="50%" style="vertical-align: middle; text-align: right; padding-right: 5px;"><span class="little"><a href="http://www.dragonscourge.com">Dragon Scourge</a> &copy; 2003-2005 by <a href="http://www.renderse7en.com">renderse7en</a></span></td>
+<td width=\"50%\" style=\"vertical-align: middle; padding-left: 5px;\"><span class=\"little\">Version <a href=\"index.php?do=version\">{{version}}</a> / {{numqueries}} Queries / {{totaltime}} Seconds</span></td>
+<td width=\"50%\" style=\"vertical-align: middle; text-align: right; padding-right: 5px;\"><span class=\"little\"><a href=\"http://www.dragonscourge.com\">Dragon Scourge</a> &copy; 2003-2005 by <a href=\"http://www.renderse7en.com\">renderse7en</a></span></td>
 </tr>
 </table>
 
 </center></body>
 </html>
-END;
+";
 
 ?>

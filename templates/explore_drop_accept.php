@@ -14,9 +14,9 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 Thank you for accepting this item.<br /><br />
-You may now <a href="index.php">continue exploring</a>.
-END;
+You may now <a href=\"index.php\">continue exploring</a>.
+";
 
 ?>

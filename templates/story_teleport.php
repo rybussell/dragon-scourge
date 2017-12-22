@@ -14,13 +14,13 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 {{story}}
 {{reward}}
 <hr />
-<form action="story.php" method="post">
-<input type="submit" name="submit" value="Continue" />
+<form action=\"story.php\" method=\"post\">
+<input type=\"submit\" name=\"submit\" value=\"Continue\" />
 </form>
-END;
+";
 
 ?>

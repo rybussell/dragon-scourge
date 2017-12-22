@@ -14,11 +14,11 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <head>
-<meta http-equiv="refresh" content="45">
+<meta http-equiv=\"refresh\" content=\"45\">
 <title>Babblebox</title>
-<style type="text/css">
+<style type=\"text/css\">
 body { font: 10px Verdana; background-color: white; padding: 0px; margin: 0px; }
 table { font: 10px Verdana; }
 td { vertical-align: top; }
@@ -35,15 +35,15 @@ a:hover { color: #663300; }
 .babble2 { background-color: #ffffff; font: 10px Verdana; margin: 0px; padding: 2px; }
 </style>
 </head>
-<body onload="window.scrollTo(0,99999)">
+<body onload=\"window.scrollTo(0,99999)\">
 {{shouts}}
-<div class="babble1">
-<form action="index.php?do=babblebox{{guild}}" method="post">
-<input type="text" name="babble" size="15" maxlength="100" /> <input type="submit" name="submit" value="Babble!" />
+<div class=\"babble1\">
+<form action=\"index.php?do=babblebox{{guild}}\" method=\"post\">
+<input type=\"text\" name=\"babble\" size=\"15\" maxlength=\"100\" /> <input type=\"submit\" name=\"submit\" value=\"Babble!\" />
 </form>
 </div>
 </body>
 </html>
-END;
+";
 
 ?>

@@ -14,8 +14,8 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
-You have traveled to {{name}}. You may now <a href="index.php">enter this town</a>.
-END;
+$template = "
+You have traveled to {{name}}. You may now <a href=\"index.php\">enter this town</a>.
+";
 
 ?>

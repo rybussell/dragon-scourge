@@ -14,9 +14,9 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 Thank you for sending this message.<br /><br />
-You may now go back to your <a href="index.php?do=mailbox">Mailbox</a> or return to <a href="index.php">Town</a>.
-END;
+You may now go back to your <a href=\"index.php?do=mailbox\">Mailbox</a> or return to <a href=\"index.php\">Town</a>.
+";
 
 ?>

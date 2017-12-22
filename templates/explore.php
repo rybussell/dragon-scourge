@@ -14,8 +14,8 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 You are exploring the map, and nothing has happened. Continue exploring using the direction buttons or the Travel To menus.
-END;
+";
 
 ?>

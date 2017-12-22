@@ -14,16 +14,16 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 {{avatar}}<br />
 You are fighting <b>{{charname}}</b>.<br />
 {{charname}}'s HP: {{currenthp}}<br /><br />
 Command?
-<form action="pvp.php" method="post">
-<input type="submit" name="fight" value="Fight" /> <br />
+<form action=\"pvp.php\" method=\"post\">
+<input type=\"submit\" name=\"fight\" value=\"Fight\" /> <br />
 {{spells}}<br />
-<input type="submit" name="run" value="Run" />
+<input type=\"submit\" name=\"run\" value=\"Run\" />
 </form>
-END;
+";
 
 ?>

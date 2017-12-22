@@ -14,10 +14,10 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 The Hall of Fame highlights the top ten players based on experience. Select a player to view their profile.<br /><br />
 {{halltable}}
-You may also return to <a href="index.php">town</a>.
-END;
+You may also return to <a href=\"index.php\">town</a>.
+";
 
 ?>

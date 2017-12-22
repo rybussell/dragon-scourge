@@ -14,10 +14,10 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <head>
 <title>{{gamename}} :: {{pagetitle}}</title>
-<style type="text/css">
+<style type=\"text/css\">
 body { font: 10px Verdana; background-color: white; padding: 0px; margin: 0px; }
 table { font: 10px Verdana; }
 td { vertical-align: top; }
@@ -38,6 +38,6 @@ a:hover { color: #663300; }
 {{content}}
 </body>
 </html>
-END;
+";
 
 ?>

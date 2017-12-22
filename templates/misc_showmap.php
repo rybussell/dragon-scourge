@@ -14,10 +14,10 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <head>
 <title>Map</title>
-<style type="text/css">
+<style type=\"text/css\">
 body { font: 10px Verdana; background-color: white; padding: 0px; margin: 0px; }
 table { font: 10px Verdana; }
 td { vertical-align: top; }
@@ -35,15 +35,15 @@ a:hover { color: #663300; }
 </style>
 </head>
 <body><center>
-<div style="border: solid 1px black; width: 510px; height: 510px; padding: 0px; margin: 0px 0px 5px 0px;">
-<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="510" height="510" id="map" align="middle">
-<param name="allowScriptAccess" value="sameDomain" />
-<param name="movie" value="map.swf" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><embed src="map.swf" quality="high" bgcolor="#ffffff" width="510" height="510" name="map" align="middle" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+<div style=\"border: solid 1px black; width: 510px; height: 510px; padding: 0px; margin: 0px 0px 5px 0px;\">
+<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0\" width=\"510\" height=\"510\" id=\"map\" align=\"middle\">
+<param name=\"allowScriptAccess\" value=\"sameDomain\" />
+<param name=\"movie\" value=\"map.swf\" /><param name=\"quality\" value=\"high\" /><param name=\"bgcolor\" value=\"#ffffff\" /><embed src=\"map.swf\" quality=\"high\" bgcolor=\"#ffffff\" width=\"510\" height=\"510\" name=\"map\" align=\"middle\" allowScriptAccess=\"sameDomain\" type=\"application/x-shockwave-flash\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" />
 </object>
 </div>
-<font color="gray">Town</font> | <font color="red">You</font> | <font color="blue">Player</font>
+<font color=\"gray\">Town</font> | <font color=\"red\">You</font> | <font color=\"blue\">Player</font>
 </center></body>
 </html>
-END;
+";
 
 ?>

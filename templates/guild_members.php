@@ -14,11 +14,11 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <b>{{name}} Members List</b><br /><br />
 {{guildmembers}}
 <br />
-You may also return to <a href="index.php">town</a>.
-END;
+You may also return to <a href=\"index.php\">town</a>.
+";
 
 ?>

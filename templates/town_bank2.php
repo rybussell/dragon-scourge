@@ -14,10 +14,10 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 Thank you for your transaction.<br /><br />
 You are now storing {{formatbank}} gold in the bank, and you are carrying {{formatgold}} gold in your pocket.<br /><br />
-You may return to <a href="index.php">town</a>, the <a href="index.php?do=bank">bank</a>, or use the direction buttons to continue exploring.
-END;
+You may return to <a href=\"index.php\">town</a>, the <a href=\"index.php?do=bank\">bank</a>, or use the direction buttons to continue exploring.
+";
 
 ?>

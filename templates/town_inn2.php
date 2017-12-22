@@ -14,9 +14,9 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 You wake up feeling refreshed and ready for action.<br /><br />
-You may return to <a href="index.php">town</a>, or use the direction buttons on the left to continue exploring.
-END;
+You may return to <a href=\"index.php\">town</a>, or use the direction buttons on the left to continue exploring.
+";
 
 ?>

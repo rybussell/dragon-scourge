@@ -14,9 +14,9 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 You have challenged {{charname}} to a duel.<br /><br />
-<iframe src="pvpmini.php" width="470" height="50" frameborder="0"></iframe>
-END;
+<iframe src=\"pvpmini.php\" width=\"470\" height=\"50\" frameborder=\"0\"></iframe>
+";
 
 ?>

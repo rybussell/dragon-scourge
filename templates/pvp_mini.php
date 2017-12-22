@@ -14,11 +14,11 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 <head>
 {{metareload}}
-<base target="{{target}}" />
-<style type="text/css">
+<base target=\"{{target}}\" />
+<style type=\"text/css\">
 body { font: 10px Verdana; background-color: white; padding: 0px; margin: 0px; }
 </style>
 </head>
@@ -26,6 +26,6 @@ body { font: 10px Verdana; background-color: white; padding: 0px; margin: 0px; }
 {{content}}
 </body>
 </html>
-END;
+";
 
 ?>

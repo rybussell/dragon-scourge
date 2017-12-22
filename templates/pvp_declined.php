@@ -14,9 +14,9 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$template = <<<END
+$template = "
 The player has declined the duel challenge.<br /><br />
-<a href="index.php">Click here to return to the game.</a>
-END;
+<a href=\"index.php\">Click here to return to the game.</a>
+";
 
 ?>
