@@ -52,7 +52,7 @@ $page = "
             <h3>Dragon Scourge :: Installation Complete</h3>
             Dragon Scourge Installation has now completed. Congratulations.<br /><br />
             For security reasons, <b>please delete install.php and install.sql from your game directory at this time!</b><br /><br />
-            <a href=\"login.php?do=login\">Click here</a> to log into your game for the first time. Once you log in, you will be asked to create your first Character.
+            <a href=\"login.php?do=login\" target=\"_parent\">Click here</a> to log into your game for the first time. Once you log in, you will be asked to create your first Character.
             
         </div>
     </center></body>
