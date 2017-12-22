@@ -1,4 +1,4 @@
-#Revive as well
+# Revive as well
 I had started working on the original Dragon Knight... But realized I've been working on this one more...
 So working on getting this running on php7.. Getting running is first task.. Increased security MIGHT be down the road..
 
