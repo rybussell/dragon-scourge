@@ -14,12 +14,14 @@
 //	within the confines of the Dragon Scourge License Agreement
 //	(see our website for that).
 
-$dbsettings = Array(
-        "server"        => "localhost",     // MySQL server name. (Usually localhost.)
-        "user"          => "",              // MySQL username.
-        "pass"          => "",              // MySQL password.
-        "name"          => "",              // MySQL database name.
-        "prefix"        => "sx",            // Prefix for table names.
-        "secretword"    => "");             // Secret word used when hashing information for cookies.
+$prefix = "sx";            // Prefix for table names.
+        
+$dbhost = "localhost";   //sql server host name
+$dbuser = "";             //database username
+$dbpass = "";            //database password for user
+$dbname = "";             //name of database for tables
+
+$link = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
+
         
 ?>
